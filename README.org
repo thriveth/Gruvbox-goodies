@@ -4,7 +4,7 @@
 * Small pieces of Gruvbox goodness for your desktop
 
 ** ~cmus~ theme: Gruvbox-night
-There are other Gruvbox-ey themes for ~cmus~ out there, but I wanted
+There are other Gruvbox-ey themes for [[https://cmus.github.io/][~cmus~]] out there, but I wanted
 something simple, and slightly more subded than what I saw.
 
 I used the built-in ~night~ theme as a starting point, and used the
@@ -15,6 +15,7 @@ color choice from the official Gruvbox theme for terminal Vim.
 Everybody loves screens.
 
 #+attr_org: :width 800px
+#+attr_html: :width 800px
 [[./cmus/cmus_Gruvbox-night_Screenshot.png]]
 
 
@@ -22,6 +23,6 @@ Everybody loves screens.
 - Terminal: :: [[https://github.com/alacritty/alacritty][Alacritty]]
 
               
-*** Emacs
+** Emacs
 I made an extension of the Emacs gruvbox theme to make it look better
 with org-mode. Will upload soon, I swear.
