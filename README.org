@@ -10,6 +10,14 @@ something simple, and slightly more subded than what I saw.
 I used the built-in ~night~ theme as a starting point, and used the
 color choice from the official Gruvbox theme for terminal Vim.
 
+*** Installation
+Put the file ~Gruvbox-night.theme~ in the folder ~~/.config/cmus/~. 
+It should now be possible to set the theme from cmus with the command
+
+#+begin_src 
+:colorscheme Gruvbox-night
+#+end_src
+
 *** Screenshot
 
 Everybody loves screens.
