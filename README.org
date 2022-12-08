@@ -1,10 +1,10 @@
+#+title: Gruvbox-ey goodness for your daily computing needs
 :preamble:
 #+startup: overview indent entitiespretty inlineimages
 :end:
 * Small pieces of Gruvbox goodness for your desktop
-
 ** ~cmus~ theme: Gruvbox-night
-There are other Gruvbox-ey themes for [[https://cmus.github.io/][~cmus~]] out there, but I wanted
+There are other Gruvbox-ey themes for [[https://cmus.github.io/][cmus]] out there, but I wanted
 something simple, and slightly more subded than what I saw.
 
 I used the built-in ~night~ theme as a starting point, and used the
@@ -30,7 +30,50 @@ Everybody loves screens.
 - Font: :: [[https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FantasqueSansMono][Fantasque Sans Mono Nerd Font]]
 - Terminal: :: [[https://github.com/alacritty/alacritty][Alacritty]]
 
-              
 ** Emacs
-I made an extension of the Emacs gruvbox theme to make it look better
-with org-mode. Will upload soon, I swear.
+I love gruvbox and I love [[https://www.orgmode.org][Org-mode]], but I was unhappy with how
+org-mode looks in the Gruvbox implementations I have seen (i.e., in
+the ~gruvbox-theme~ and ~doom-themes~ packages). 
+
+Some things I wanted and have implemented here:
+- Title, author etc. are set up to look similar to what they would in
+  an actual document. Particularly, they are bold and larger, but
+  otherwise the same color as normal text. 
+- Heading levels are encoded with a smooth color gradient. That way, a
+  quick glance can tell you how deep your current heading is. It also
+  looks more smooth, less Angry Fruit Salad™ -ey. They are slightly
+  larger than normal text, but all the same size, to subtly tell the
+  eye that this is a heading without breaking the general reading
+  flow. 
+- I wanted citations to look different than links, similar to what you
+  can do with the \LaTeX Hyperref package. Other links all have the
+  same colors. 
+- Blocks should be easy to tell apart from the surrounding text, but
+  not be so different that it breaks the reading flow and becomes a
+  distraction. They are therefore simply set to be one tone darker
+  than the general text background. 
+- Non-text content should not steal my attention. Therefore, comments,
+  drawers, tags, properties, block delimiters etc. are all in subdued
+  gray on darker gray background.
+
+I am not an (e)lisp programmer, so I found a code snippet online
+(forgot the source, sorry), which modifies a theme when loaded. This
+may be a clumsy way of doing it, I don't know a parenthesis from a
+brace in elisp. 
+
+*** Dependencies
+This implementation assumes you have ~use-package~ installed. Possibly
+that is not necessary, I may prettify the code later, suggestions/pull
+requests are welcome.
+
+*** Installation
+Just copy the contents of the file [[./Emacs/gruvbox-conf.el]] into your
+config somewhere. Once Emacs is restarted and you load the Gruvbox
+theme, the changes should show up. 
+
+*** Screenshot
+Because it is much easier to see if you like it this way. 
+
+#+attr_org: :width 800px
+[[./Emacs/My-Gruvbox.png]]
+
