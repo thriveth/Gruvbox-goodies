@@ -29,10 +29,14 @@ Everybody loves screens.
 - Font: :: [[https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FantasqueSansMono][Fantasque Sans Mono Nerd Font]]
 - Terminal: :: [[https://github.com/alacritty/alacritty][Alacritty]]
 
-* Emacs/org-mode
+* Emacs
 I love gruvbox and I love [[https://www.orgmode.org][Org-mode]], but I was unhappy with how
 org-mode looks in the Gruvbox implementations I have seen (i.e., in
 the ~gruvbox-theme~ and ~doom-themes~ packages).
+
+In addition, I also made some small tweaks to colors for
+[[https://github.com/seagle0128/doom-modeline][Doom-Modeline]], line numbers, and some nicer colors for [[https://www.djcbsoftware.nl/code/mu/mu4e.html][Mu4E]]. If you do
+not want some of these, just remove these sections from your config. 
 
 ** What it is
 Some things I wanted and have implemented here:
@@ -74,6 +78,13 @@ theme, the changes should show up.
 ** Screenshot
 Because it is much easier to see if you like it this way. 
 
-#+attr_org: :width 800px
+*** Org-mode
+
+#+attr_org: :width 700px
 [[./Emacs/My-Gruvbox.png]]
+
+*** Mu4E
+
+#+attr_org: :width 700px
+[[./Emacs/Mu4E-overview.png]]
 
