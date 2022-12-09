@@ -10,7 +10,7 @@ for various applications. They are, for now:
   - [[#installation][Installation]]
   - [[#screenshot][Screenshot]]
 - [[#emacs][Emacs]]
-  - [[#what-it-is][What it is]]
+  - [[#motivation][Motivation]]
   - [[#dependencies][Dependencies]]
   - [[#installation-1][Installation]]
   - [[#screenshot-1][Screenshot]]
@@ -52,7 +52,7 @@ In addition, I also made some small tweaks to colors for
 [[https://github.com/seagle0128/doom-modeline][Doom-Modeline]], line numbers, and some nicer colors for [[https://www.djcbsoftware.nl/code/mu/mu4e.html][Mu4E]]. If you do
 not want some of these, just remove these sections from your config. 
 
-** What it is
+** Motivation
 Some things I wanted and have implemented here:
 - Title, author etc. are set up to look similar to what they would in
   an actual document. Particularly, they are bold and larger, but
