@@ -5,9 +5,16 @@
 I like the Gruvbox colorscheme a lot. Here are themes or theme-hacks
 for various applications. They are, for now:
 
-- [[https://github.com/thriveth/gruvbox-mpl][~cmus~]]
-- [[*Emacs][Emacs]]
-- [[*Matplotlib][Matplotlib]] (Python plotting library)
+* Contents :TOC:
+- [[#cmus-theme-gruvbox-night][~cmus~ theme: Gruvbox-night]]
+  - [[#installation][Installation]]
+  - [[#screenshot][Screenshot]]
+- [[#emacs][Emacs]]
+  - [[#what-it-is][What it is]]
+  - [[#dependencies][Dependencies]]
+  - [[#installation-1][Installation]]
+  - [[#screenshot-1][Screenshot]]
+- [[#matplotlib][Matplotlib]]
 
 * ~cmus~ theme: Gruvbox-night
 There are other Gruvbox-ey themes for [[https://cmus.github.io/][cmus]] out there, but I wanted
