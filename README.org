@@ -2,6 +2,13 @@
 :preamble:
 #+startup: overview indent entitiespretty inlineimages
 :end:
+I like the Gruvbox colorscheme a lot. Here are themes or theme-hacks
+for various applications. They are, for now:
+
+- ~cmus~
+- Emacs
+- Matplotlib (Python plotting library)
+
 * ~cmus~ theme: Gruvbox-night
 There are other Gruvbox-ey themes for [[https://cmus.github.io/][cmus]] out there, but I wanted
 something simple, and slightly more subded than what I saw.
@@ -87,4 +94,7 @@ Because it is much easier to see if you like it this way.
 
 #+attr_org: :width 700px
 [[./Emacs/Mu4E-overview.png]]
+
+* Matplotlib
+See the separate [[https://github.com/thriveth/gruvbox-mpl][repository]].
 
